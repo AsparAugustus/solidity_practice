@@ -1,8 +1,8 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.20;
 
 
-contract AssemblyVariable {
+contract AssemblyContract {
     function yul_let() public pure returns (uint z) {
         assembly {
             let x := 123
